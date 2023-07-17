@@ -1,0 +1,452 @@
+*{
+  letter-spacing: 0.5px;
+  font-family:'Times New Roman';
+}
+body{
+ 
+  background-color: white;
+}
+
+
+ .line {
+            background:#0e2b42;
+            height: 8px;
+            border-radius: 4px;
+            width: 0%;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+
+        }
+.img
+{
+    height: 400px;
+    background-image: url(11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+
+/*List Contents*/
+.img nav > ul li a{
+   list-style-type: none;
+   text-decoration:none;
+   color:white;
+ }
+ .img  nav > ul li a:hover{
+  color: black;
+ }
+
+.img nav{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.img nav > ul li:hover{
+    text-shadow: #0e2b42;
+    box-shadow: inset 0 0 18px #fff, 
+    inset -6px 0 18px #f3bad6, 
+    inset 6px 0 18px #0ff, 
+    inset -6px 0 30px #f3bad6, 
+    inset 6px 0 30px #0ff, 
+    0 0 18px #fff, 4px 0 18px 
+    #f3bad6, -4px 0 18px #0ff;
+    border-color: #fff;
+    cursor: pointer;
+    background: white;
+}
+ .img  nav > ul li{
+    padding: 10px;
+    margin: 25px;
+    display: inline;  
+    transition: .5s ease-out; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+nav > ul li{
+    padding: 10px;
+    margin: 25px;
+    font-weight: bold;
+    display: inline;   /*to work height & width*/
+    transition: .5s;
+    border-radius:15px;
+}
+
+/* Name  */
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+}
+/* icons */
+.icons ul{
+    padding-top: px;
+    text-align: center;
+    list-style-type: none;
+}
+.icons ul li i{
+   margin-top: 8px;
+ }
+ 
+.icons ul li a {
+  color: white;
+  font-size: 25px; /*f size*/
+}
+
+.icons ul li{
+   text-decoration: none;
+    cursor: pointer;
+    height: 45px; 
+    margin: 30px;  /*margin bt lists*/
+    width: 60px;
+    background: transparent;
+    border-radius: 15px;
+    display: inline-block;   /*to work height & width*/
+    transition: .5s;
+  }
+
+  .icons ul li a:hover{
+    color: black;
+  }
+.icons ul li:hover{
+    
+    color: black;
+    box-shadow: inset 0 0 18px #fff, 
+    inset -6px 0 18px #f3bad6, 
+    inset 6px 0 18px #0ff, 
+    inset -6px 0 30px #f3bad6, 
+    inset 6px 0 30px #0ff, 
+    0 0 18px #fff, 4px 0 18px 
+    #f3bad6, -4px 0 18px #0ff;
+    text-shadow: 0 0 15px #1DA1F2;
+  }
+#About, #Education, #Skills1, #Contact, #Portfolio
+{
+ margin-top: -20px;
+}
+section:nth-child(even)
+{
+  background-color: white;
+}
+section:nth-child(odd){
+ background-color: white;
+}
+Section h2{
+    text-align: center;
+    padding-top: 15px;
+    color: #108c9c;
+}
+#Education .s::first-line{
+    color: #0e2b42;
+    font-weight: bold;
+    font-size: 21px;
+}
+#About {
+    height: 600px;
+    margin-top: -210px;
+}
+
+#About  p{
+    margin: 150px;
+    text-align: center;
+}
+
+
+.timeline-divider {
+  height: 85%;
+  left: 5%;
+} 
+
+.timeline-divider {
+  height: 550px ;
+  position: relative;
+  left: 25%;
+  width: 0;
+  transform: translateX(-50%);
+  border-left: 4px dashed #cacaca;
+}
+
+.divider-icon {
+  font-size: 2em;
+  color: #1262b3;
+  position: sticky;
+  top: 5%;
+  margin-left: -5px;
+  transform: rotate(90deg);
+}
+
+#Education {
+    line-height: 22px;
+    height: 670px;
+    padding: 5px;
+}
+/* Btech */
+#Education .sec{
+    border-radius: 15px;
+    margin-left: 100px;
+    background-color:aliceblue;
+    box-shadow: 0 0 15px rgb(136, 133, 133);
+    width: 400px;
+    height: 100px;
+    display: block;
+    padding: 20px;
+    margin-top:0;
+}
+/* Diploma */
+#Education .sec1{
+  background-color:aliceblue;
+  border-radius: 15px;
+    margin-left: 300px;
+    box-shadow: 0 0 15px rgb(136, 133, 133);
+    width: 400px;
+    margin-top: 40px;
+    height: 100px;
+    display: block;
+    padding: 20px;
+}
+/* SSC */
+#Education .sec2{
+    background-color:aliceblue;
+    margin-right: 5%;
+    border-radius: 15px;
+    margin-left: 100px;
+    box-shadow: 0 0 15px rgb(136, 133, 133);
+    width: 400px;
+    height: 100px;
+    display: block;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#Skill{
+height: 350px;
+}
+
+  .skill_container{
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .skill_container > ul{
+    margin-left: 190px;
+  }
+  #Portfolio{
+    margin-top: 35px;
+    height: 530px;
+  }
+  a, abbr{
+    text-decoration: none;
+    color: white;
+  }
+   .move{
+    display: flex;
+   }
+  .flip-card {
+    width: 280px;
+    height: 200px;
+    perspective: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  
+  .flip-card-front,.flip-card-back {
+    box-shadow: 20px 20px 20px #666;
+    border-radius: 15px;
+    text-align: center;
+    width: 280px; 
+    height: 200px;  
+    color: white;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #22808c;
+    position: absolute;
+  }
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  .flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front,.flip-card-back {
+    backface-visibility: hidden;
+  }
+  .image {
+    top: -15vh;
+    /* the magic */
+    display: block;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    -ms-border-radius: 180px;
+    -o-border-radius: 180px;
+    border-radius: 180px;
+    /* the rest */
+    position: relative; /* for the overlay later */
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 3px solid #FFF;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3),inset 0px 3px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  .image  img {
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border: 0;
+    /* make resized images look good in IE */
+    -ms-interpolation-mode: bicubic;
+  }
+  /* here's a hover overlay, in case you want that */
+.image span {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #888;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  padding: 3em 1em 0;
+}
+.image:hover span {
+  display: block;
+}  
+
+.cert{
+  margin-left: 150px;
+   font-size: 20px;
+}
+#cert1{
+  font-size: 22px;
+  line-height: 35px;
+  color:#0e2b42;
+  list-style: none;
+  font-weight: bold;
+}
+#cert1 > li{
+  margin: 15px;
+}
+#cert2{
+  color: black;
+  font-weight: lighter;
+  font-size:20px;
+  margin-top: 20px;
+}
+#cert2 > li{
+  margin-left: 110px;
+  
+}
+.extra{
+  padding: 30px;
+}
+.extra > ul{
+  margin-left: 110px;
+  margin-top: 50px;
+}
+.extra > ul > li{
+  line-height: 35px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+#Contact {
+    height: 610px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+  input[type="text"]{
+    font-size: medium;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid rgba(89, 82, 82, 0.15);
+    background-color: transparent;
+    outline: none;
+    margin-top: 12px;
+    margin-bottom:15px;
+    color: black;
+  }
+
+::placeholder{
+  color: black;
+}
+  input[type="text"]:focus
+  {
+    transition: .5s ease;
+    border-bottom: 2px solid black;
+    background-color: none;
+  }
+  label{
+    color: rgb(253, 244, 244);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  textarea{
+    border-radius: 15px;
+    font-size: large;
+    resize: none;
+    background-color:transparent;
+    border: 1px solid gray;
+    outline: none;
+    padding: 15px;
+    margin: 5px  0px;
+    
+  }
+
+  form button{
+    transition: .5s ease;
+    background-color: rgb(0, 0, 0,0.55);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 320px;
+    height: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#Contact aside{
+    color: white;
+    margin-top: 170px;
+    margin-left: 850px;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    background: #1df288;
+    border-radius: 15px;
+    width: 320px;
+    height: 240px;
+  }
+
+form{
+  height: 370px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 100px;
+  background:#1df288;
+  position: absolute;
+  border-radius: 10px;
+  border: 2px solid rgba(12, 12, 12, 0.1);
+  box-shadow: 0 0 24px rgba(1, 1, 3, 0.6);
+  padding: 50px 35px;
+}
+.ic{
+  padding-left: 10px;
+  padding-right: 20px;
+}
